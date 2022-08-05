@@ -2,12 +2,23 @@
 function isLeapYear (years) {
     const remainder = years % 4;
 
+    // if(remainder === 0){
+    //     console.log('your year is leap year', years)
+    // }
+    // else {
+    //     console.log('your year is not leap year')
+    // }
+
     if(remainder === 0){
-        console.log('your year is leap year', years)
+        return true;
     }
     else {
-        console.log('your year is not leap year')
+        return false;
     }
 }
 
-isLeapYear(2024)
+const isMyYearLeapYear = isLeapYear(2022);
+console.log('my year is: ', isMyYearLeapYear)
+
+const IsHerYearLeapYear = isLeapYear(2024);
+console.log('her year is:', IsHerYearLeapYear)

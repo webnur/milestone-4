@@ -28,3 +28,9 @@ else{
 
 // starts with
 console.log(lyrics.startsWith('tumi'))
+
+// end with 
+
+const fineName = 'mybiodata.pdf';
+const otherName = 'mypic.png'
+fineName.endsWith('.pdf')

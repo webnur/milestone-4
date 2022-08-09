@@ -23,11 +23,11 @@ function myNumbers(numbers) {
     let posetiveNum = [];
     for (i = 0; i <= numbers.length; i++) {
         var number = numbers[i];
-        if (number > 0) {  
+        if (number >= 0) {  
             posetiveNum.push(number);
             
         }
-        else if(number < 0){
+        else{
             break;
         }
     }

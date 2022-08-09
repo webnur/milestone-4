@@ -8,7 +8,7 @@ function paperRequirements (firstBook, secondBook, thridBook) {
     const secondTotalPaper = secondBookPaper * secondBook;
     const thirdTotalPaper = thirdBookPaper * thridBook;
 
-    const totalPaper =  firstTotalPaper + secondTotalPaper + thirdTotalPaper;
+    const totalPaper =  firstBookPaper + secondTotalPaper + thirdTotalPaper;
     return totalPaper;
 }
 
